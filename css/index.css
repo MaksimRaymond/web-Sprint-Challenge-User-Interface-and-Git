@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    display:flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin:25px;
+}
+header .img{
+    width: 25%;
+    
+
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:left;
+    width: 34.5%;
+    margin-top: 20px;
+    }
+
+nav a{
+    text-decoration: none;
+    text-color: black;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -69,6 +93,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .top-content {
@@ -82,7 +107,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top: 20px;  
 }
 
 .middle-content {
